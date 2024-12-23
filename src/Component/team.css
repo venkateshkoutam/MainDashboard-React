@@ -1,0 +1,166 @@
+.container-fluid {
+    padding: 12px;
+  }
+  
+  .text-box {
+    border-radius: 10px; /* Rounded corners */
+    background-color: #FFFFFF;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 16px; /* Padding inside the box */
+    text-align: center; /* Center align text */
+    margin: 16px 0; /* Margin for spacing */
+    width: 280px;
+    height: 335px;
+    color: #A3AED0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: -18px;
+  }
+  
+  .whattodo {
+    padding-top: 36px;
+    font-size: 17px;
+    color: #2B3674;
+  }
+  
+  .cardtext {
+    padding-top: 36px;
+    font-size: 22px;
+    color: #2B3674;
+  }
+  
+  .videodiv {
+    background: #FAFCFE;
+    height: 165px;
+    width: 316px;
+    margin-left: -15px;
+    width: 249px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .teammember {
+    color: #2B3674;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .teamdiv {
+    border-radius: 10px; /* Rounded corners */
+    background-color: #FFFFFF;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 68px;
+    margin-left: -6px;
+    margin-right: -5px;
+    margin-top: 20px;
+  }
+  
+  .empimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .empname {
+    margin: 0;
+    font-weight: 700;
+    color: #2B3674;
+    font-size: 16px;
+  }
+  
+  .emprole {
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    color: #A3AED0;
+  }
+  
+  .bgimg {
+    border-radius: 10px;
+    width: 256px;
+    margin-left: -19px;
+    margin-top: -12px;
+  }
+  
+  .startbucks {
+    font-size: 24px;
+    color: #2B3674;
+    font-weight: 700;
+    margin-left: -70px;
+    margin-top: 50px;
+  }
+  
+  .fastfoodimg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .cashback {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #A3AED0;
+  }
+  
+  .cardbutton {
+    width: 246px;
+  }
+  
+  .calendarDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: -20px;
+  }
+  
+  .calendarDiv img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .spendInfo {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-top: -15px;
+  }
+  
+  .trackInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: -15px;
+  }
+  
+  .relativeContainer {
+    position: relative;
+  }
+  
+  .relativeContainer img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+  }
+  
+  .top-right-icon {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .bottom-left-icon {
+    bottom: 177px;
+    left: 10px;
+  }
+  
+  .horizontal-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .text-nowrap {
+    white-space: nowrap;
+  }

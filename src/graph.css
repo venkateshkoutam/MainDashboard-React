@@ -1,0 +1,113 @@
+.graphmaindiv {
+    /* Removed double quotes from property values */
+    background-color: #FFFFFF;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 590px;
+    /* height: 345px; */
+    height: 272px;
+    margin-left: 7px;
+    /* margin-left: -2px; */
+    padding: 10px 0; /* Corrected padding */
+}
+
+/* .calendarDiv {
+
+    width: 120px;
+    height: 37px;
+    
+    background-color: #F4F7FE; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 26px;
+    margin-left: 31px;
+    border-radius: 7px;
+} */.calendarDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 120px;
+    height: 33px;
+    background-color: #F4F7FE;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    margin-left: 31px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.thismonthtext {
+    color: #A3AED0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    margin: 0 0 0 8px;
+}
+
+.dollartext {
+    color: #2B3674;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 30px;
+    margin-left: -54px;
+}
+
+.spendInfo {
+    display: flex;
+    align-items: center; /* Ensures all items align vertically */
+    margin-top: 10px; /* Adjust as needed */
+    gap: 8px; /* Adds space between elements */
+    /* margin-top: -26px; */
+}
+
+.totalspent {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #A3AED0;
+    line-height: 24px;
+    margin: 0; /* Ensures alignment */
+    margin-left: 32px;
+    /* margin-top: -26px; */
+}
+
+.percentageText {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #05CD99; /* Adjust color if needed */
+    margin: 0; /* Ensures alignment */
+    /* margin-top: -26px; */
+    margin-left: "-10px";
+    font-weight: 700;
+}
+.frameimg{
+    width: 22px;
+    height: 22px;
+    margin-top: 25px;
+    margin-left: 31px;
+    border-radius: 46px;
+}
+.trackInfo{
+    display: flex;
+    align-items: center; /* Ensures all items align vertically */
+    margin-top: 10px; /* Adjust as needed */
+    gap: 8px; /* Adds space between elements */
+}
+.trackText{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #05CD99; /* Adjust color if needed */
+    margin: 0; /* Ensures alignment */
+    /* margin-top: -26px; */
+    margin-left: "-10px";
+    margin-top: 24px;
+    font-weight: 700;
+    letter-spacing: -2%;
+}
+.graph1{
+    width: 520px;
+    height: 260px;
+}

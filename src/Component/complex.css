@@ -1,0 +1,79 @@
+#calendar-container {
+    border: 1px solid #dee2e6; 
+    border-radius: 5px; 
+    padding: 10px; 
+  }
+  
+  /* Customize calendar dates when selected */
+  .MuiCalendar-daySelected {
+    background-color: #007bff !important; 
+    color: white !important;
+  }
+  
+  .MuiCalendar-dayDisabled {
+    color: #ff0000 !important; 
+  }
+.progress-bar-container {
+    width: 100%;
+    background-color: #f3f4f7; 
+    border-radius: 8px; 
+    height: 12px; 
+    position: relative;
+    margin-top: 5px;
+  }
+  
+  /* Style for the actual progress bar */
+  .progress-bar {
+    height: 75%;
+    background-color: #4318FF;
+    border-radius: 8px;
+  }
+  .text-box {
+    
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 16px; 
+    text-align: center;
+    margin: 16px 0; 
+    width: 251px;
+    height: 335px;
+  }
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.checkbox-container input {
+  margin-right: 8px; 
+}
+.table-task{
+
+    color: #A3AED0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    margin: 0 0 0 8px;
+
+}
+.medium{
+  width: 282px;
+    height: 307px;
+    margin-left: -1px;
+    margin-top: -16px;
+    box-shadow: 2px 0px 6px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+}
+
+.graphmaindivcomplex{
+    background-color: #FFFFFF;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 601px;
+    height: 305px;
+    margin-left: 7px;
+    padding: 10px 0; 
+    margin-top: -30px;
+}

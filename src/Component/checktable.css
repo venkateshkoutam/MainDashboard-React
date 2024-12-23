@@ -1,0 +1,170 @@
+/* Style for the header containing text and image */
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+}
+
+.header p {
+  color: #2b3674;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0; 
+}
+
+.image-box {
+  display: inline-block;
+  border-radius: 12px; 
+  padding-bottom: 8px;
+  padding-left: 14px;
+  padding-top: 4px;
+  padding-right: 11px;
+  background-color: #f4f7fe; 
+}
+
+.dots-image {
+  width: 18px; 
+  border-radius: 8px; 
+}
+
+/* Table styles */
+.table {
+  border: none !important;
+  width: 100% !important;
+}
+
+.table th,
+.table td {
+  border: none !important;
+  padding: .5rem .5rem !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 14px !important;
+}
+
+.table th {
+  color: #a3aed0 !important;
+  font-weight: 500 !important;
+}
+
+.table td {
+  color: #2b3674 !important;
+  font-weight: 700 !important;
+}
+
+/* Optional: Style for the container */
+.container-fluid {
+  padding: 16px;
+}
+
+/* Graph main container */
+.graphmaindiv1 {
+  background-color: #ffffff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 10px 0;
+  width: 595px;
+  height: 311px;
+  margin-bottom: 20px; 
+}
+
+.checktable{
+  color: rgb(43, 54, 116);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-left: 27px;
+}
+.subgraphdiv1 {
+  background-color: #ffffff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 10px 0;
+  width: 242px;
+  height: 340px;
+  margin-left: 13px;
+  margin-bottom: 20px; 
+}
+
+/* Text box styling for the graphs */
+.text-box {
+  background-color: #f4f7fe;
+  border-radius: 10px; 
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.12); 
+  padding: 16px; 
+  text-align: center; 
+  margin: 16px 0; 
+  width: 271px;
+  height: 335px;
+  margin-top: -19px;
+  margin-left: 23px;
+}
+
+.text-box.linesGrap {
+  margin-top: -19px;
+  margin-left: 23px;
+}
+
+.Lines,
+.pie {
+  height: 311px;
+  width: 229px;
+}
+
+/* Style for the pie image with shadow */
+.pie {
+  box-shadow: 2px 0px 6px rgba(0, 0, 0, 0.2); 
+  border-radius: 10px; /* Rounded corners */
+  display: block;
+  margin: 0 auto;
+  margin-left: 16px;
+  width: 282px;
+  margin-top: -21px;
+}
+
+/* Style for the line graph image with shadow */
+.Lines {
+  box-shadow: 2px 0px 6px rgba(0, 0, 0, 0.2); 
+  border-radius: 10px; 
+  display: block;
+  margin: 0 auto;
+  margin-left: 11px;
+  width: 282px;
+  margin-top: -21px;
+}
+
+/* Style the checkbox container for better alignment */
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.checkbox-container input {
+  margin-bottom: 5px; 
+}
+
+.checkbox-container label {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Optional: Add some spacing to the checkbox column */
+.table td:first-child {
+  padding-left: 16px;
+  text-align: center; 
+}
+
+/* Adjust the checkboxes for better appearance */
+.table input[type="checkbox"] {
+  margin-top: 0px; 
+}
+
+/* Custom subgraph row for layout */
+.subgraph-row {
+  display: flex;
+  gap: 16px; 
+  flex-wrap: wrap;
+  margin-top: 20px; 
+}

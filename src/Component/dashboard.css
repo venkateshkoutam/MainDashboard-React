@@ -1,0 +1,71 @@
+.container-fluid {
+    width: 100%;
+  }
+  
+  .card {
+    height: 74px;
+    width: 165px;
+  }
+  
+  .earnings-card {
+    margin-left: 7px;
+  }
+  
+  .spend-card {
+    margin-left: 2px;
+  }
+  
+  .sales-card {
+    margin-left: 9px;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .card-image {
+    background: #f4f7fe;
+    width: 51px;
+    height: 48px;
+    border-radius: 63px;
+  }
+  
+  .card-text {
+    color: #a3aed0;
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .card-number {
+    margin-top: 10px;
+    margin-left: 17px;
+    color: #2b3674;
+    font-family: DM Sans;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: left;
+  }
+  
+  .truncate-text {
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%; 
+    display: block;
+  }
+  .card-number.test {
+    margin: 0;                
+    color: #2B3674;          
+    font-family: 'DM Sans';   
+    font-size: 14px;          
+    font-weight: 700;         
+    text-align: left;         
+}
+  .sales-text{
+    text-align: left;
+  }
